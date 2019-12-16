@@ -1,0 +1,245 @@
+body{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	background-color: black;
+}
+.head-image{
+	text-align: center;
+	background-color: black;
+}
+.head-image img{
+	width: 15%;
+}
+
+.menu{
+	/*display: inline-block;*/
+	/*position: relative;*/
+	/*bottom: 80px;*/
+	background-color: black;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	border: solid black;
+}
+
+.menu ul{
+	border-top: double 1px white;
+	border-bottom: double 1px white;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin: auto;
+	width: 75%;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu li{
+	/*padding-right: 2%;*/
+	font-weight: bold;
+	font-size: 3vw;
+	/*color: #F15022;*/
+	color: white;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+}
+
+.menu li a:hover{
+	/*border-bottom: blue solid 1px;*/
+	color: #F15022;
+	font-size: 3.1vw;
+	border-top: dotted #F15022 1px;
+}
+
+.introduction{
+	/*display: flex;*/
+	/*flex-direction: column;*/
+	padding-top: 8%;
+	padding-bottom: 8%;
+	text-align: center;
+	background-image: url("intro1.jpg");
+	background-size: 100%;
+}
+
+.introduction h2{
+	color: #efd5ce;
+	font-size: 4vw;
+	/*font-weight: bold;*/
+}
+
+.introduction p{
+	width: 80%;
+	margin: auto;
+	font-size: 1.8vw;
+	font-weight: bold;
+	color: #efd5ce;
+	padding-bottom: 6%;
+}
+
+.introduction a{
+ 	text-decoration: none;
+ 	color: #efd5ce;
+	font-weight: bold;
+	font-size: 3vw;
+	border: 1px #efd5ce;
+	border-style: double;
+	padding: 2%;
+}
+
+.introduction a:hover {
+	border-color: #F15022;
+	color: #F15022;
+	font-size: 3.1vw;
+	border-style: dotted;
+}
+
+.content{
+	width: 80%;
+	padding-top: 2%;
+	margin: auto;
+	background-color: black;
+}
+
+.service{
+	background-image: url("haircutnew.jpg");
+	background-size: 100%;
+	padding-top: 8%;
+	padding-bottom: 8%;
+	text-align: center;
+}
+
+.service h4{
+	color: #efd5ce;
+	font-size: 3.5vw;
+}
+
+.service ul{
+	list-style-type: none;
+	font-weight: bold;
+	color: white;
+	font-size: 3vw;
+}
+
+.about{
+	background-image: url("about.jpg");
+	background-size: 100%;
+	padding-top: 8%;
+	padding-bottom: 10%;
+	text-align: center;
+}
+
+.about h4{
+	color: #efd5ce;
+	font-size: 3.5vw;
+}
+
+.about p{
+	color: white;
+	font-size: 2vw;
+	width: 50%;
+	margin: auto;
+	text-align: justify-all;
+}
+
+.location{
+	/*padding-bottom: 30%;*/
+	text-align: center;
+}
+
+.location h2{
+	padding: 0;
+	color: black;
+	position: relative;
+	top: 100px;
+	font-size: 3vw;
+	text-align: left;
+} 
+.location img{
+	width: 100%;
+}
+
+.location p{
+	font-size: 2.2vw;
+	font-weight: bold;
+	position: relative;
+	bottom: 80px;
+}
+
+.footer{
+	border-top: white double 2px;
+	color: #F15022;
+	text-align: center;
+}
+
+.soc-media{
+	display: flex;
+	justify-content: space-around;
+	padding: 4%;
+}
+
+.fb a{
+	color: #4267B2;
+	font-size: 5vw;
+	padding: 4%;
+	text-decoration: none;
+	border: solid 2px #4267B2;
+	border-radius: 20px;
+}
+
+.fb a:hover{
+	padding: 4.5%;
+	border-color: skyblue;
+}
+
+.insta a{
+	color: #C52F9D;
+	font-size: 5vw;
+	padding: 4%;
+	text-decoration: none;
+	border: solid 2px #C52F9D;
+	border-radius: 20px;
+}
+
+.insta a:hover{
+	padding: 4.5%;
+	border-color: skyblue;
+}
+
+.mobno{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+.mobno p{
+	padding-right: 3%;
+	font-size: 2.5vw;
+}
+
+.mail{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.mail p{
+	padding-right: 3%;
+	font-size: 2.5vw;
+}
+
+.copyright a{
+	text-decoration: none;
+	color: red;
+	font-size: 2.5vw;
+}
+
+.copyright a:hover{
+	color: white;
+	border: solid 2px skyblue;
+	border-radius: 30px;
+	padding: 1%;
+}
